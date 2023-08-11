@@ -93,9 +93,9 @@ body {
 
 
 /* display area */
-.input-area {
+/* .input-area { */
     /* border: 1px solid seagreen; */
-    margin-top: 10px;
+    /* margin-top: 10px;
     height: 35px;
     background-color: #efefef;
     text-align: right;
@@ -103,15 +103,24 @@ body {
     padding-right: 5px;
 }
 
-.output-area {
+.output-area { */
     /* border: 1px solid seagreen; */
-    margin-top: 10px;
+    /* margin-top: 10px;
     height: 50px;
     background-color: #efefef;
     text-align: right;
     font-size: 50px;
     padding-right: 5px;
 
+} */
+
+.input, .output {
+    width: 345px;
+    height: 30px;
+    border-color: black;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
 }
 
 
@@ -128,9 +137,11 @@ body {
     border-color: #efefef;
     margin-top: 5px;
     cursor: pointer;
+    border-radius: 15px;
+    border-color: black;
 }
 
-.font {
+.font, .input, .output {
     font-family:'Times New Roman', Times, serif;
     font-size: large;
 }
