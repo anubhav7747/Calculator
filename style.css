@@ -1,0 +1,137 @@
+* {
+    margin: auto;
+    /* padding: 0; */
+}
+
+body {
+    background-color: #bebebe;
+}
+
+.body {
+    margin-top: 125px;
+    border: 3px solid black;
+    width: 375px;
+    height: 510px;
+    /* background-color: black; */
+    /* color: white; */
+}
+
+.nav {
+    /* border: 2px solid red; */
+    display: flex;
+    width: 400px;
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.left-nav {
+    margin-left: 7px;
+    /* padding-left: 0; */
+    /* width: fit-content; */
+    /* border: 2px solid orange; */
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    
+}
+
+
+.left-nav h1 {
+    /* border: 2px solid olive; */
+    font-size: 25px;
+    font-weight: lighter;
+    /* width: fit-content; */
+    margin-left: 15px;
+}
+
+.right-nav {
+    /* margin-left: 30px; */
+    /* border: 2px solid orchid; */
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+
+.inRightNav {
+    margin-top: 3px;
+    /* border: 1px solid brown; */
+    margin-right: 20px;
+}
+
+.container {
+    /* border: 2px solid orange; */
+    display: flex;
+    margin-top: 10px;
+}
+
+.menu, .standard, .history {
+    /* border: 1px solid orange; */
+}
+
+.menu {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.standard {
+    margin-left: -70px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.history {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+.display-area {
+    /* border: 2px solid gray; */
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/* display area */
+.input-area {
+    /* border: 1px solid seagreen; */
+    margin-top: 10px;
+    height: 35px;
+    background-color: #efefef;
+    text-align: right;
+    font-size: 30px;
+    padding-right: 5px;
+}
+
+.output-area {
+    /* border: 1px solid seagreen; */
+    margin-top: 10px;
+    height: 50px;
+    background-color: #efefef;
+    text-align: right;
+    font-size: 50px;
+    padding-right: 5px;
+
+}
+
+
+/* buttons */
+.keypad {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.keypad button {
+    width: 85.5px;
+    height: 50px;
+    border-color: #efefef;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.font {
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+}
+
